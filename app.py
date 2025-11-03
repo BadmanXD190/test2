@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ========= CONFIG =========
-MODEL_ID  = "qeVM1Dsr5"                 # <-- your Teachable Machine model id
+MODEL_ID  = "DgfbqBv53"                 # <-- your Teachable Machine model id
 DEVICE_ID = "robotcar_umk1"            # must match your ESP code
 BROKER_WS = "wss://test.mosquitto.org:8081/mqtt"
 TOPIC_CMD = f"rc/{DEVICE_ID}/cmd"
